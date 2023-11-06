@@ -6,3 +6,9 @@
     <input type="text" name="username" id="username" placeholder="{{ placeholder }}">
     <input type="text" [disabled]="isDisabled">
 </div>
+<br/>
+<strong>Event Binding</strong>
+<div>
+    <button (click)="showMessage()">Click Here</button>
+    <p>Name: <strong>{{ message }}</strong></p>
+</div>

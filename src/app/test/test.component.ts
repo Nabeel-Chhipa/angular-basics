@@ -9,4 +9,10 @@ export class TestComponent {
   name:string = 'Nabeel'
   placeholder = 'placeholder name'
   isDisabled = false
+  message = ''
+
+  showMessage() {
+    // alert('Welcome: ' + this.name)
+    this.message = 'Muhammad: ' + this.name
+  }
 }
