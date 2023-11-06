@@ -1,1 +1,8 @@
 <p>Welcome, {{ name }}</p>
+
+<strong>Property Binding</strong>
+<div>
+    <input type="text" name="username" id="username" [placeholder]="placeholder">
+    <input type="text" name="username" id="username" placeholder="{{ placeholder }}">
+    <input type="text" [disabled]="isDisabled">
+</div>

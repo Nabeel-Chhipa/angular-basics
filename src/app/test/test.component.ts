@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class TestComponent {
   name:string = 'Nabeel'
+  placeholder = 'placeholder name'
+  isDisabled = false
 }
