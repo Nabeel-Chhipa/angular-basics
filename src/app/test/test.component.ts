@@ -8,8 +8,9 @@ import { Component } from '@angular/core';
 export class TestComponent {
   name:string = 'Nabeel'
   placeholder = 'placeholder name'
-  isDisabled = false
+  isDisabled = true
   message = ''
+  open = 'warn'
 
   showMessage() {
     // alert('Welcome: ' + this.name)
