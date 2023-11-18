@@ -11,9 +11,9 @@ export class TestComponent {
   isDisabled = true
   message = ''
   open = 'warn'
+  isAdmin = true
 
   showMessage() {
-    // alert('Welcome: ' + this.name)
-    this.message = 'Muhammad: ' + this.name
+    this.message = 'Welcome ' + this.name
   }
 }

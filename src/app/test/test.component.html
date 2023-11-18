@@ -17,3 +17,9 @@
 <div>
     <p class="font_bold" [class.success]="isDisabled">Lorem ipsum dolor sit amet.</p>
 </div>
+
+<strong>ngIf Directive</strong>
+<p *ngIf="isAdmin else elseBlock">Admin available</p>
+<ng-template #elseBlock>
+    <p>Admin not available</p>
+</ng-template>
